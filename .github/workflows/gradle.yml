@@ -23,7 +23,7 @@ jobs:
       run:  chmod +x gradle
 
     - name: Build with Gradle
-      run:  /gradle build
+      run:  gradle build
 
     - name: Build and push docker image
       uses: mr-smithers-excellent/docker-build-push@v4
